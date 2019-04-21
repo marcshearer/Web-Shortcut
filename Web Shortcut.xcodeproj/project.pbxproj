@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2B4FD32226C2EB600DBF482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD31226C2EB600DBF482 /* AppDelegate.swift */; };
+		B2B4FD34226C2EB600DBF482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD33226C2EB600DBF482 /* ViewController.swift */; };
+		B2B4FD36226C2EB700DBF482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B4FD35226C2EB700DBF482 /* Assets.xcassets */; };
+		B2B4FD39226C2EB700DBF482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B4FD37226C2EB700DBF482 /* Main.storyboard */; };
+		B2B4FD45226C2EB700DBF482 /* Web_ShortcutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD44226C2EB700DBF482 /* Web_ShortcutTests.swift */; };
+		B2B4FD50226C2EB700DBF482 /* Web_ShortcutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD4F226C2EB700DBF482 /* Web_ShortcutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2B4FD41226C2EB700DBF482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2B4FD26226C2EB600DBF482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B4FD2D226C2EB600DBF482;
+			remoteInfo = "Web Shortcut";
+		};
+		B2B4FD4C226C2EB700DBF482 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2B4FD26226C2EB600DBF482 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2B4FD2D226C2EB600DBF482;
+			remoteInfo = "Web Shortcut";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2B4FD2E226C2EB600DBF482 /* Web Shortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Shortcut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B4FD31226C2EB600DBF482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2B4FD33226C2EB600DBF482 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2B4FD35226C2EB700DBF482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2B4FD38226C2EB700DBF482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2B4FD3A226C2EB700DBF482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B4FD3B226C2EB700DBF482 /* Web_Shortcut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Web_Shortcut.entitlements; sourceTree = "<group>"; };
+		B2B4FD40226C2EB700DBF482 /* Web ShortcutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web ShortcutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B4FD44226C2EB700DBF482 /* Web_ShortcutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_ShortcutTests.swift; sourceTree = "<group>"; };
+		B2B4FD46226C2EB700DBF482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B4FD4B226C2EB700DBF482 /* Web ShortcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web ShortcutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B4FD4F226C2EB700DBF482 /* Web_ShortcutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_ShortcutUITests.swift; sourceTree = "<group>"; };
+		B2B4FD51226C2EB700DBF482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2B4FD2B226C2EB600DBF482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B4FD3D226C2EB700DBF482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B4FD48226C2EB700DBF482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2B4FD25226C2EB600DBF482 = {
+			isa = PBXGroup;
+			children = (
+				B2B4FD30226C2EB600DBF482 /* Web Shortcut */,
+				B2B4FD43226C2EB700DBF482 /* Web ShortcutTests */,
+				B2B4FD4E226C2EB700DBF482 /* Web ShortcutUITests */,
+				B2B4FD2F226C2EB600DBF482 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2B4FD2F226C2EB600DBF482 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4FD2E226C2EB600DBF482 /* Web Shortcut.app */,
+				B2B4FD40226C2EB700DBF482 /* Web ShortcutTests.xctest */,
+				B2B4FD4B226C2EB700DBF482 /* Web ShortcutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2B4FD30226C2EB600DBF482 /* Web Shortcut */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4FD31226C2EB600DBF482 /* AppDelegate.swift */,
+				B2B4FD33226C2EB600DBF482 /* ViewController.swift */,
+				B2B4FD35226C2EB700DBF482 /* Assets.xcassets */,
+				B2B4FD37226C2EB700DBF482 /* Main.storyboard */,
+				B2B4FD3A226C2EB700DBF482 /* Info.plist */,
+				B2B4FD3B226C2EB700DBF482 /* Web_Shortcut.entitlements */,
+			);
+			path = "Web Shortcut";
+			sourceTree = "<group>";
+		};
+		B2B4FD43226C2EB700DBF482 /* Web ShortcutTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4FD44226C2EB700DBF482 /* Web_ShortcutTests.swift */,
+				B2B4FD46226C2EB700DBF482 /* Info.plist */,
+			);
+			path = "Web ShortcutTests";
+			sourceTree = "<group>";
+		};
+		B2B4FD4E226C2EB700DBF482 /* Web ShortcutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2B4FD4F226C2EB700DBF482 /* Web_ShortcutUITests.swift */,
+				B2B4FD51226C2EB700DBF482 /* Info.plist */,
+			);
+			path = "Web ShortcutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2B4FD2D226C2EB600DBF482 /* Web Shortcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B4FD54226C2EB700DBF482 /* Build configuration list for PBXNativeTarget "Web Shortcut" */;
+			buildPhases = (
+				B2B4FD2A226C2EB600DBF482 /* Sources */,
+				B2B4FD2B226C2EB600DBF482 /* Frameworks */,
+				B2B4FD2C226C2EB600DBF482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Web Shortcut";
+			productName = "Web Shortcut";
+			productReference = B2B4FD2E226C2EB600DBF482 /* Web Shortcut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2B4FD3F226C2EB700DBF482 /* Web ShortcutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B4FD57226C2EB700DBF482 /* Build configuration list for PBXNativeTarget "Web ShortcutTests" */;
+			buildPhases = (
+				B2B4FD3C226C2EB700DBF482 /* Sources */,
+				B2B4FD3D226C2EB700DBF482 /* Frameworks */,
+				B2B4FD3E226C2EB700DBF482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B4FD42226C2EB700DBF482 /* PBXTargetDependency */,
+			);
+			name = "Web ShortcutTests";
+			productName = "Web ShortcutTests";
+			productReference = B2B4FD40226C2EB700DBF482 /* Web ShortcutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2B4FD4A226C2EB700DBF482 /* Web ShortcutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2B4FD5A226C2EB700DBF482 /* Build configuration list for PBXNativeTarget "Web ShortcutUITests" */;
+			buildPhases = (
+				B2B4FD47226C2EB700DBF482 /* Sources */,
+				B2B4FD48226C2EB700DBF482 /* Frameworks */,
+				B2B4FD49226C2EB700DBF482 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2B4FD4D226C2EB700DBF482 /* PBXTargetDependency */,
+			);
+			name = "Web ShortcutUITests";
+			productName = "Web ShortcutUITests";
+			productReference = B2B4FD4B226C2EB700DBF482 /* Web ShortcutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2B4FD26226C2EB600DBF482 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Marc Shearer";
+				TargetAttributes = {
+					B2B4FD2D226C2EB600DBF482 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					B2B4FD3F226C2EB700DBF482 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B2B4FD2D226C2EB600DBF482;
+					};
+					B2B4FD4A226C2EB700DBF482 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = B2B4FD2D226C2EB600DBF482;
+					};
+				};
+			};
+			buildConfigurationList = B2B4FD29226C2EB600DBF482 /* Build configuration list for PBXProject "Web Shortcut" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2B4FD25226C2EB600DBF482;
+			productRefGroup = B2B4FD2F226C2EB600DBF482 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2B4FD2D226C2EB600DBF482 /* Web Shortcut */,
+				B2B4FD3F226C2EB700DBF482 /* Web ShortcutTests */,
+				B2B4FD4A226C2EB700DBF482 /* Web ShortcutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2B4FD2C226C2EB600DBF482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B4FD36226C2EB700DBF482 /* Assets.xcassets in Resources */,
+				B2B4FD39226C2EB700DBF482 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B4FD3E226C2EB700DBF482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B4FD49226C2EB700DBF482 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2B4FD2A226C2EB600DBF482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B4FD34226C2EB600DBF482 /* ViewController.swift in Sources */,
+				B2B4FD32226C2EB600DBF482 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B4FD3C226C2EB700DBF482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B4FD45226C2EB700DBF482 /* Web_ShortcutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B4FD47226C2EB700DBF482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B4FD50226C2EB700DBF482 /* Web_ShortcutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2B4FD42226C2EB700DBF482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2B4FD2D226C2EB600DBF482 /* Web Shortcut */;
+			targetProxy = B2B4FD41226C2EB700DBF482 /* PBXContainerItemProxy */;
+		};
+		B2B4FD4D226C2EB700DBF482 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2B4FD2D226C2EB600DBF482 /* Web Shortcut */;
+			targetProxy = B2B4FD4C226C2EB700DBF482 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2B4FD37226C2EB700DBF482 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2B4FD38226C2EB700DBF482 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2B4FD52226C2EB700DBF482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2B4FD53226C2EB700DBF482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B2B4FD55226C2EB700DBF482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Web Shortcut/Web_Shortcut.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3T7CT2S464;
+				INFOPLIST_FILE = "Web Shortcut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MarcShearer.Web-Shortcut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B2B4FD56226C2EB700DBF482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Web Shortcut/Web_Shortcut.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3T7CT2S464;
+				INFOPLIST_FILE = "Web Shortcut/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MarcShearer.Web-Shortcut";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B2B4FD58226C2EB700DBF482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3T7CT2S464;
+				INFOPLIST_FILE = "Web ShortcutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MarcShearer.Web-ShortcutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Web Shortcut.app/Contents/MacOS/Web Shortcut";
+			};
+			name = Debug;
+		};
+		B2B4FD59226C2EB700DBF482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3T7CT2S464;
+				INFOPLIST_FILE = "Web ShortcutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MarcShearer.Web-ShortcutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Web Shortcut.app/Contents/MacOS/Web Shortcut";
+			};
+			name = Release;
+		};
+		B2B4FD5B226C2EB700DBF482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3T7CT2S464;
+				INFOPLIST_FILE = "Web ShortcutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MarcShearer.Web-ShortcutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Web Shortcut";
+			};
+			name = Debug;
+		};
+		B2B4FD5C226C2EB700DBF482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3T7CT2S464;
+				INFOPLIST_FILE = "Web ShortcutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MarcShearer.Web-ShortcutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Web Shortcut";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2B4FD29226C2EB600DBF482 /* Build configuration list for PBXProject "Web Shortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B4FD52226C2EB700DBF482 /* Debug */,
+				B2B4FD53226C2EB700DBF482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B4FD54226C2EB700DBF482 /* Build configuration list for PBXNativeTarget "Web Shortcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B4FD55226C2EB700DBF482 /* Debug */,
+				B2B4FD56226C2EB700DBF482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B4FD57226C2EB700DBF482 /* Build configuration list for PBXNativeTarget "Web ShortcutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B4FD58226C2EB700DBF482 /* Debug */,
+				B2B4FD59226C2EB700DBF482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2B4FD5A226C2EB700DBF482 /* Build configuration list for PBXNativeTarget "Web ShortcutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B4FD5B226C2EB700DBF482 /* Debug */,
+				B2B4FD5C226C2EB700DBF482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2B4FD26226C2EB600DBF482 /* Project object */;
+}
