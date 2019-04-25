@@ -1,26 +1,27 @@
 //
 //  AppDelegate.swift
-//  Web Shortcut
+//  Toodledo
 //
-//  Created by Marc Shearer on 21/04/2019.
+//  Created by Marc Shearer on 20/04/2019.
 //  Copyright © 2019 Marc Shearer. All rights reserved.
 //
 
 import Cocoa
 
 @NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
-
-
-
+class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
+    
+    public static var refreshPage = true
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
     }
-
+    
     func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+        
     }
-
-
+    
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        sender.windows.first?.makeKeyAndOrderFront(sender)
+        return true
+    }
 }
-

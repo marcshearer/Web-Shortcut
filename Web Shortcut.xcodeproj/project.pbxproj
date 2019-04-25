@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		B2B4FD32226C2EB600DBF482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD31226C2EB600DBF482 /* AppDelegate.swift */; };
-		B2B4FD34226C2EB600DBF482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD33226C2EB600DBF482 /* ViewController.swift */; };
+		B2B4FD34226C2EB600DBF482 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD33226C2EB600DBF482 /* BrowserViewController.swift */; };
 		B2B4FD36226C2EB700DBF482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B4FD35226C2EB700DBF482 /* Assets.xcassets */; };
 		B2B4FD39226C2EB700DBF482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B4FD37226C2EB700DBF482 /* Main.storyboard */; };
 		B2B4FD45226C2EB700DBF482 /* Web_ShortcutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD44226C2EB700DBF482 /* Web_ShortcutTests.swift */; };
 		B2B4FD50226C2EB700DBF482 /* Web_ShortcutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD4F226C2EB700DBF482 /* Web_ShortcutUITests.swift */; };
+		B2B4FD5F226C310200DBF482 /* BrowserWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD5E226C310200DBF482 /* BrowserWindowController.swift */; };
+		B2B4FD65226CE82000DBF482 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD64226CE82000DBF482 /* SettingsViewController.swift */; };
+		B2B4FD67226CEABC00DBF482 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD66226CEABC00DBF482 /* Settings.swift */; };
+		B2B4FD69226CEE5A00DBF482 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B4FD68226CEE5A00DBF482 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,7 @@
 /* Begin PBXFileReference section */
 		B2B4FD2E226C2EB600DBF482 /* Web Shortcut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web Shortcut.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4FD31226C2EB600DBF482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B2B4FD33226C2EB600DBF482 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2B4FD33226C2EB600DBF482 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		B2B4FD35226C2EB700DBF482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B4FD38226C2EB700DBF482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2B4FD3A226C2EB700DBF482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +50,11 @@
 		B2B4FD4B226C2EB700DBF482 /* Web ShortcutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Web ShortcutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2B4FD4F226C2EB700DBF482 /* Web_ShortcutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web_ShortcutUITests.swift; sourceTree = "<group>"; };
 		B2B4FD51226C2EB700DBF482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B4FD5D226C2F2C00DBF482 /* Web Shortcut.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Web Shortcut.entitlements"; sourceTree = "<group>"; };
+		B2B4FD5E226C310200DBF482 /* BrowserWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserWindowController.swift; sourceTree = "<group>"; };
+		B2B4FD64226CE82000DBF482 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B2B4FD66226CEABC00DBF482 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		B2B4FD68226CEE5A00DBF482 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +105,17 @@
 		B2B4FD30226C2EB600DBF482 /* Web Shortcut */ = {
 			isa = PBXGroup;
 			children = (
+				B2B4FD5D226C2F2C00DBF482 /* Web Shortcut.entitlements */,
 				B2B4FD31226C2EB600DBF482 /* AppDelegate.swift */,
-				B2B4FD33226C2EB600DBF482 /* ViewController.swift */,
 				B2B4FD35226C2EB700DBF482 /* Assets.xcassets */,
-				B2B4FD37226C2EB700DBF482 /* Main.storyboard */,
 				B2B4FD3A226C2EB700DBF482 /* Info.plist */,
 				B2B4FD3B226C2EB700DBF482 /* Web_Shortcut.entitlements */,
+				B2B4FD37226C2EB700DBF482 /* Main.storyboard */,
+				B2B4FD5E226C310200DBF482 /* BrowserWindowController.swift */,
+				B2B4FD33226C2EB600DBF482 /* BrowserViewController.swift */,
+				B2B4FD64226CE82000DBF482 /* SettingsViewController.swift */,
+				B2B4FD66226CEABC00DBF482 /* Settings.swift */,
+				B2B4FD68226CEE5A00DBF482 /* Utility.swift */,
 			);
 			path = "Web Shortcut";
 			sourceTree = "<group>";
@@ -192,6 +206,11 @@
 				TargetAttributes = {
 					B2B4FD2D226C2EB600DBF482 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					B2B4FD3F226C2EB700DBF482 = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -254,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2B4FD34226C2EB600DBF482 /* ViewController.swift in Sources */,
+				B2B4FD69226CEE5A00DBF482 /* Utility.swift in Sources */,
+				B2B4FD67226CEABC00DBF482 /* Settings.swift in Sources */,
+				B2B4FD34226C2EB600DBF482 /* BrowserViewController.swift in Sources */,
+				B2B4FD5F226C310200DBF482 /* BrowserWindowController.swift in Sources */,
+				B2B4FD65226CE82000DBF482 /* SettingsViewController.swift in Sources */,
 				B2B4FD32226C2EB600DBF482 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Web Shortcut/Web_Shortcut.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Web Shortcut/Web Shortcut.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3T7CT2S464;
@@ -440,7 +463,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Web Shortcut/Web_Shortcut.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Web Shortcut/Web Shortcut.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3T7CT2S464;
