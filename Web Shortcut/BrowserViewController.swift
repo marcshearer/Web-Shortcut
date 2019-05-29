@@ -42,7 +42,7 @@ class BrowserViewController: NSViewController, WKUIDelegate {
         if Settings.current.url == "" {
             // Pop-up settings - this will refresh page if saved
             self.showSettings(exitIfCancel: true)
-        } else if AppDelegate.refreshPage {
+        } else if AppDelegate.refreshPage || Settings.current.returnHome {
             // Browse the site
             self.browsePage()
         }

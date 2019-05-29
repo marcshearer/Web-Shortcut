@@ -16,6 +16,7 @@ class SettingsViewController: NSViewController, NSControlTextEditingDelegate {
     @IBOutlet private weak var urlTextField: NSTextField!
     @IBOutlet private weak var titleTextField: NSTextField!
     @IBOutlet private weak var showHomeCheckBox: NSButton!
+    @IBOutlet private weak var returnHomeCheckBox: NSButton!
     @IBOutlet private weak var bannerColorWell: NSColorWell!
     @IBOutlet private weak var saveButton: NSButton!
     
@@ -31,6 +32,11 @@ class SettingsViewController: NSViewController, NSControlTextEditingDelegate {
     
     @IBAction func showHomeChanged(_ sender: NSButton) {
         self.editSettings.showHome = (self.showHomeCheckBox.intValue != 0)
+        self.checkValues()
+    }
+    
+    @IBAction func returnHomeChanged(_ sender: NSButton) {
+        self.editSettings.returnHome = (self.returnHomeCheckBox.intValue != 0)
         self.checkValues()
     }
     
@@ -93,6 +99,7 @@ class SettingsViewController: NSViewController, NSControlTextEditingDelegate {
         self.urlTextField.stringValue = self.editSettings.url
         self.titleTextField.stringValue = self.editSettings.title
         self.showHomeCheckBox.intValue = (self.editSettings.showHome ? 1 : 0)
+        self.returnHomeCheckBox.intValue = (self.editSettings.returnHome ? 1 : 0)
         self.bannerColorWell.color = self.editSettings.bannerColor
     }
     

@@ -16,16 +16,19 @@ class Settings: NSObject, NSCopying {
     var url: String
     var title: String
     var showHome: Bool
+    var returnHome: Bool
     var bannerColor: NSColor
     
     init(url: String! = "",
          title: String! = "",
          showHome: Bool! = true,
+         returnHome: Bool! = true,
          bannerColor: NSColor = NSColor.blue) {
         
         self.url = url
         self.title = title
         self.showHome = showHome
+        self.returnHome = returnHome
         self.bannerColor = bannerColor
     }
     
@@ -33,6 +36,7 @@ class Settings: NSObject, NSCopying {
         self.url = UserDefaults.standard.string(forKey: Settings.key("url")) ?? ""
         self.title = UserDefaults.standard.string(forKey: Settings.key("title")) ?? ""
         self.showHome = UserDefaults.standard.bool(forKey: Settings.key("showHome"))
+        self.returnHome = UserDefaults.standard.bool(forKey: Settings.key("returnHome"))
         self.bannerColor = NSColor(red: CGFloat(UserDefaults.standard.double(forKey: Settings.key("bannerColorRed"))),
                                  green: CGFloat(UserDefaults.standard.double(forKey: Settings.key("bannerColorGreen"))),
                                   blue: CGFloat(UserDefaults.standard.double(forKey: Settings.key("bannerColorBlue"))),
@@ -50,6 +54,7 @@ class Settings: NSObject, NSCopying {
         UserDefaults.standard.set(self.url, forKey: Settings.key("url"))
         UserDefaults.standard.set(self.title, forKey: Settings.key("title"))
         UserDefaults.standard.set(self.showHome, forKey: Settings.key("showHome"))
+        UserDefaults.standard.set(self.returnHome, forKey: Settings.key("returnHome"))
         UserDefaults.standard.set(self.bannerColor.redComponent, forKey: Settings.key("bannerColorRed"))
         UserDefaults.standard.set(self.bannerColor.greenComponent, forKey: Settings.key("bannerColorGreen"))
         UserDefaults.standard.set(self.bannerColor.blueComponent, forKey: Settings.key("bannerColorBlue"))
@@ -64,6 +69,7 @@ class Settings: NSObject, NSCopying {
         let copy = Settings(url: self.url,
                             title: self.title,
                             showHome: self.showHome,
+                            returnHome: self.returnHome,
                             bannerColor: self.bannerColor)
         return copy
     }
